@@ -7,14 +7,14 @@ export default {
 <template>
   <header>
     <nav>
-      <div>
+      <div class="nav-brand">
         <span>
           <font-awesome-icon
             icon="fa-solid fa-mug-hot"
-            style="color: #be1c2d"
+            style="color: #be1c2d; height: 7em"
           />
         </span>
-        <span>Kuching-TeaRoom</span>
+        <span class="brand">Kuching <br> TeaRoom</span>
       </div>
       <div>
         <ul>
@@ -119,7 +119,36 @@ export default {
 </template>
 
 <style scoped>
-div {
-  /* font-family: 'Gluten', cursive; */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5em 0 5em;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2em;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav span {
+  margin-right: 1em;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+.brand {
+  font-family: "Gluten", cursive;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #f2b69f;
+  text-shadow: 2px 2px #73261b;
 }
 </style>
