@@ -55,17 +55,18 @@ export default {
             <p>
               With a Kopitiam (“Cafe”) in the region surrounding Ipoh, a major
               culinary hub of Malaysia, our family have developed a deep
-              connection with authentic Malaysian cuisine for close to a century.
-              With traditional family recipes passed down through generations, our
-              passion for authentic Ipoh-style Malaysian food has brought us to
-              this little corner of San Gabriel Valley, a culinary hub of Asian
-              cuisine, to share with our community. Our goal is to bring the true
-              flavors of Malaysia to this side of the Pacific and expose a new
-              population to real Malaysian cuisine. We even import our ingredients
-              direct from Malaysia to preserve the authentic aromas and strong
-              rich flavors that only the herbs and spices cultivated in the
-              climates of Southeast Asia can bring. Stop by our little shop in
-              Alhambra and experience a true taste of Malaysia.
+              connection with authentic Malaysian cuisine for close to a
+              century. With traditional family recipes passed down through
+              generations, our passion for authentic Ipoh-style Malaysian food
+              has brought us to this little corner of San Gabriel Valley, a
+              culinary hub of Asian cuisine, to share with our community. Our
+              goal is to bring the true flavors of Malaysia to this side of the
+              Pacific and expose a new population to real Malaysian cuisine. We
+              even import our ingredients direct from Malaysia to preserve the
+              authentic aromas and strong rich flavors that only the herbs and
+              spices cultivated in the climates of Southeast Asia can bring.
+              Stop by our little shop in Alhambra and experience a true taste of
+              Malaysia.
             </p>
             <button>Order Online</button>
           </article>
@@ -171,6 +172,7 @@ nav span {
 .nav-brand {
   display: flex;
   align-items: center;
+  margin-top: 1em;
 }
 .brand {
   font-family: "Gluten", cursive;
